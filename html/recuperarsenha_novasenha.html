@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/index.css">
     <title>Recuperar senha - Theka</title>
 </head>
 <body>
-    <main>
-        <section>
-            <div><img src="#" alt=""></div>
-            <h1><img src="#" alt=""></h1>
+    <main class="Login_Cadastro_RecuperacaoDeSenha">
+        <section class="secao_imagem_Login_Cadastro_RecuperacaoDeSenha">
+            <img class="Mascote_RecuperacaoDeSenha" src="../imagens/Mascote_laranja.png" alt="">
+            <img class="LogoTipo_Login_Cadastro_RecuperacaoDeSenha" src="../imagens/LogoTipo_laranja.png" alt="">
         </section>
-        <section>
-            <h2>Login</h2>
-            <form action="#" method="post">
-                <label for="senha_nova">Nova senha</label>
-                <input type="password" name="senha" id="senha_nova" required>
-
-                <label for="senha_nova">Confirmar nova senha</label>
-                <input type="password" name="senha" id="senha_nova" required>
-                
-                <button><a href="#">Voltar</a></button>
-                <button type="submit">Enviar</button>
-            </form>
+        <section class="secao_formulario_Login_Cadastro_RecuperacaoDeSenha">
+            <div class="formulario_Login_Cadastro_RecuperacaoSenha">
+                <h1 class="Login_Cadastro_RecuperacaoDeSenha_TextoDestaque">Recuperar Senha</h1>
+                <form action="#" method="post">
+                    <div class="Rotulo_Formulario">
+                        <label for="senha_nova">Nova senha</label>
+                        <input class="Input_RecuperacaoDeSenha" type="password" name="senha" id="senha_nova" required>
+                    </div>
+                    <div class="Rotulo_Formulario">
+                        <label for="senha_nova">Confirmar nova senha</label>
+                        <input class="Input_RecuperacaoDeSenha" type="password" name="senha" id="senha_nova" required>
+                    </div>
+                    <div class="Botoes_RecuperacaoDeSenha_Cadastro">
+                        <button class="Botao_Voltar_RecuperacaoDeSenha"><a href="#">Voltar</a></button>
+                        <button class="Botao_Enviar_RecuperacaoDeSenha" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
