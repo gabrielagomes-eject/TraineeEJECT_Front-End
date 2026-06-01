@@ -3,6 +3,11 @@
     --LARANJA500: #8C480D;
     --LARANJA400: #C06516;
     --LARANJA300: #F78420;
+    --ROSA700: #48001D;
+    --ROSA600: #81013B;
+    --ROSA500: #BF025A;
+    --ROSA400: #FE177B;
+    --CINZA400: #7E7E7D;
 }
 body{
     margin: 0 auto;
@@ -38,7 +43,7 @@ body{
     background-color: white;
     position: relative;
 }
-form{
+.Formulario_Login_Cadastro_RecuperacaoDeSenha{
     color: var(--LARANJA300);
     display: flex;
     flex-direction: column;
@@ -62,7 +67,7 @@ input::placeholder{
     color: var(--LARANJA300);
     font-size: 64px;
 }
-.Rotulo_Formulario{
+.Rotulo_Formulario_Login_Cadastro_RecuperacaoDeSenha{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -165,5 +170,123 @@ input::placeholder{
     top: 30%;
     left: 5%;
 }
-
-
+#Contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+#container_Contato{
+    display: flex;
+    gap: 3rem;
+}
+.Rotulo_Formulario_Contato{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    
+}
+#Formulario_Contato{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    color: var(--ROSA700);
+}
+.entrada_Contato{
+    width: 416px;
+    border: 2px solid var(--ROSA700);
+    background-color: transparent;
+}
+#TextoDestaque_Formulario_Contato{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px;
+    color: var(--ROSA700);
+}
+#container_Contato{
+    background-color: #F8F8F8;
+    width: 1200px;
+    height: 543px;
+    border-radius: 20px;
+}
+#container_ContatoLocalizacao{
+    width: 55%;
+}
+iframe{
+    width: 100%;
+    height: 416px;
+}
+#Botao_Unidade_NatalShopping{
+    height: 44px;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--ROSA700);
+    color: white;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+#Botao_Unidade_Midway{
+    height: 44px;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--CINZA400);
+    color: white;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    padding: 0.5rem;
+}
+#endereco_Contato_Unidades{
+    font-size: 14px;
+    font-weight: 300;
+}
+#container_Contato_BotoesUnidades{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+#Botao_Enviar_Contato{
+    height: 44px;
+    width: 124px;
+    border: none;
+    border-radius: 100px;
+    background-color: var(--ROSA700);
+    color: white;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+#Botao_Cancelar_Contato{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    color: var(--ROSA700);
+    border: 2px solid var(--ROSA700);
+    border-radius: 100px;
+    height: 44px;
+    width: 112px;
+}
+.Botoes_Formulario_Contato{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#TextoDestaque_Contato{
+    color: var(--ROSA600);
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#container_TextoDestaque_Contato{
+    display: flex;
+    justify-content: left;
+   
+}
