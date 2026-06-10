@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --LARANJA500: #8C480D;
+    --LARANJA400: #C06516;
+    --LARANJA300: #F78420;
+    --ROSA700: #48001D;
+    --ROSA600: #81013B;
+    --ROSA500: #BF025A;
+    --ROSA400: #FE177B;
+    --CINZA400: #7E7E7D;
+}
+body{
+    margin: 0 auto;
+    font-family: "DM Sans", "Inter", sans-serif;
+    margin-top: 30px;
+}
+footer{
+    background-color: var(--ROSA600);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#EJECT{
+    font-size: 13px;
+    font-weight: 300;
+}
+.subtituloFooter{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.container_footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.listasFooter{
+    list-style-type: none;
+    margin-top: 1px;
+    padding: 0;
+}
+.itensLista_footer{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.itensLista_footer img{
+    width: auto;
+    height: 100%;
+}.logoFooter{
+    margin-top: 40px;
+}

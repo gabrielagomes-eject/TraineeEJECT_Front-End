@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <script src="../script/script.js" defer></script>
     <title>Contato - Theka</title>
 </head>
 <body>
@@ -13,11 +15,11 @@
            
             <div id="container_Contato">
                 <div id="container_ContatoLocalizacao">
-                    <iframe src="https://maps.app.goo.gl/A1qN6xjAsSVuEfdLA" frameborder="0"></iframe>
+                    <iframe class="mapaContato" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.100648482188!2d-35.21312492525277!3d-5.8414363941418355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff7f4087913f%3A0x646f9f0abcf581fd!2sNatal%20Shopping%20-%20Avenida%20Senador%20Salgado%20Filho%2C%202234%20-%20Lagoa%20Nova%2C%20Natal%20-%20RN%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1781030200785!5m2!1spt-BR!2sbr"></iframe>
                     <div id="container_Contato_BotoesUnidades">
-                        <button id="Botao_Unidade_NatalShopping">Unidades Natal Shopping</button>
-                        <button id="Botao_Unidade_Midway">Unidades Midway</button>
-                        <p id="endereco_Contato_Unidades">Endereço</p>
+                        <button id="Botao_Unidade_NatalShopping" class="botoesContato" class="botaoAtivo_unidades" >Unidades Natal Shopping</button>
+                        <button id="Botao_Unidade_Midway" class="botoesContato"  class="botaoInativo_unidades">Unidades Midway</button>
+                        <p id="endereco_Contato_Unidades">Avenida Senador Salgado Filho, 2234, Av. das Brancas Dunas, 47 - Candelária, Natal - RN, 59064-900</p>
                     </div>
                 </div>
                 <div id="container_ContatoFormulario">
@@ -40,7 +42,7 @@
                             <input class="entrada_Contato" type="text" name="mensagem" id="mensagem">
                         </div>
                         <div class="Botoes_Formulario_Contato">
-                            <button id="Botao_Enviar_Contato" type="submit">Enviar <img src="../imagens/Icone_Seta.png" alt=""></button>
+                            <button id="Botao_Enviar_Contato" type="submit">Enviar<img src="../imagens/Icone_Seta.png" alt=""></button>
                             <button id="Botao_Cancelar_Contato" type="reset">Cancelar</button>
                         </div>
                     </form>
@@ -48,5 +50,6 @@
             </div>
         </section>
     </main>
+    <iframe id="frameFooter" src="../html/footer.html" width="100%"  frameborder="0"></iframe>
 </body>
 </html>
