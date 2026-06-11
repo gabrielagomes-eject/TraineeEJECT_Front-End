@@ -36,6 +36,6 @@ header{
 nav{
     background: transparent;
     backdrop-filter: blur(90%);
-    box-shadow: inset 0 20px 45px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 20px 45px rgba(200, 200, 200, 0.25);
     border-radius: 100px;
 }
