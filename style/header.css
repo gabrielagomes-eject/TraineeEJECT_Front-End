@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --LARANJA500: #8C480D;
+    --LARANJA400: #C06516;
+    --LARANJA300: #F78420;
+    --ROSA700: #48001D;
+    --ROSA600: #81013B;
+    --ROSA500: #BF025A;
+    --ROSA400: #FE177B;
+    --CINZA400: #7E7E7D;
+    --CINZA500: #5A5A5A;
+}
+body{
+    margin: 0 auto;
+    font-family: "DM Sans", "Inter", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    align-items: center;
+    margin-top: 20px;
+}
+.containerTexto_nav{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding-right: 30px;
+}
+.texto_nav a{
+    text-decoration: none;
+    color: var(--CINZA500);
+    font-size: 32px;
+    font-weight: 700;
+}
+nav{
+    background: transparent;
+    backdrop-filter: blur(90%);
+    box-shadow: inset 0 20px 45px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
