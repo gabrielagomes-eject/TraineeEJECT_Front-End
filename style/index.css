@@ -310,12 +310,11 @@ iframe{
     justify-content: left;
    
 }
-#frameFooter{
-    width: 100%;
-    height: 350px;
+footer{
+    margin-top: 50px;
 }
-#frameHeader{
-    height: fit-content;
+header{
+    margin-bottom: 50px;
 }
 
 .textoDestaqueCarrosselAcervo{
@@ -460,6 +459,27 @@ iframe{
     justify-content: right;
     margin-right: 145px;
     margin-top: 20px;
+}.opcoesFiltroAcervo{
+    width: 201px;
+    border: 2px solid var(--ROSA600);
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--ROSA600);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+select option{
+    border: 1px solid var(--ROSA600);
+    border-radius: 100px;
+
+}
+.linhaFiltro{
+    width: 190px;
+    
 }
 .textoDestaque_Banner{
     color: white;

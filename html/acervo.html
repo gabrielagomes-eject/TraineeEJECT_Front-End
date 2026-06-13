@@ -9,7 +9,18 @@
     <title>Acervo - Theka</title>
 </head>
 <body>
-    <iframe id="frameHeader" src="../html/header.html" width="100%" frameborder="0"></iframe>
+    <header>
+        <div id="logoTheka_header"><img src="../imagens/LogoTipo_folha.png" alt=""></div>
+        <nav>
+            <ul class="containerTexto_nav">
+                <li class="texto_nav"><a href="../index.html">Início</a></li>
+                <li class="texto_nav"><a href="../html/acervo.html">Acervo</a></li>
+                <li class="texto_nav"><a href="#">Sobre nós</a></li>
+                <li class="texto_nav"><a href="../html/contato.html">Contato</a></li>
+                <li class="texto_nav"><a href="#"><img src="../imagens/Icone_Perfil.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="novidadesDaSemana">
             <div>
@@ -30,8 +41,24 @@
                 <div class="filtroAcervo">
                     <p class="textoFilto">Fazer busca</p>
                     <div class="botoes_FiltroAcervo">
-                        <button class="botao_FiltoCategoria"><p>Gênero</p><img src="../imagens/Icone_filtroCategoriaGenero.png" alt=""></button>
-                        <button class="botao_FiltoCategoria"><p>Editora</p><img src="../imagens/Icone_filtroCategoriaEditora.png" alt=""></button>
+                        <label for="genero" class="botao_FiltoCategoria" style="display: none;"><p>Gênero</p><img src="../imagens/Icone_filtroCategoriaGenero.png" alt=""></label>
+                        <select name="genero" id="genero" class="opcoesFiltroAcervo">
+                            <option value="genero">Gênero</option>
+                            <hr class="linhaFiltro">
+                            <option value="romance">Romance</option>
+                            <option value="suspense">Suspense</option>
+                            <option value="terror">Terror</option>
+                            <option value="drama">Drama</option>
+                        </select>
+                        <label for="editora" class="botao_FiltoCategoria" style="display: none;"><p>Editora</p><img src="../imagens/Icone_filtroCategoriaEditora.png" alt=""></label>
+                        <select name="editora" id="editora" class="opcoesFiltroAcervo">
+                            <option value="editora">Editora</option>
+                            <hr class="linhaFiltro">
+                            <option value="editora1">Editora Qualquer</option>
+                            <option value="editora2">Editora Qualquer</option>
+                            <option value="editora3">Editora Qualquer</option>
+                            <option value="editora4">Editora Qualquer</option>
+                        </select>
                         <button class="botao_FiltroBuscar"><p>Buscar</p><img src="../imagens/Icone_pesquisa.png" alt=""></button>
                     </div>
                 </div>
@@ -69,6 +96,37 @@
             </div>
         </section>
     </main>
-    <iframe id="frameFooter" src="../html/footer.html" width="100%"  frameborder="0"></iframe>
+    <footer>
+        <div class="container_footer">
+            <div class="logoFooter">
+                <img src="../imagens/LogoTipo_rosa.png" alt="">
+                <p>Aventuras literárias</p>
+            </div>
+            <div class="container_contato_redes_ajuda">
+                <h2 class="subtituloFooter">Contato</h2>
+                <ol class="listasFooter">
+                    <li class="itensLista_footer"><img src="../imagens/Icone_Cel.png" alt=""><p>(84) 9 9999-2222</p></li>
+                    <li class="itensLista_footer"><img src="../imagens/Icone_Site.png" alt=""><p>www.theka.com.br</p></li>
+                    <li class="itensLista_footer"><img src="../imagens/Icone_Loc.png" alt=""><p>Natal, RN</p></li>
+                </ol>
+            </div>
+            <div class="container_contato_redes_ajuda">
+                <h2 class="subtituloFooter">Redes sociais</h2>
+                <ol class="listasFooter">
+                    <li class="itensLista_footer"><img src="../imagens/Icone_insta.png" alt="Logo da rede social Instagram"><p>@theka.biblioteca</p></li>
+                    <li class="itensLista_footer"><img src="../imagens/Icone_tiktok.png" alt="Logo da rede social Tiktok"><p>@theka.biblioteca</p></li>
+                    <li class="itensLista_footer"><img src="../imagens/Icone_X.png" alt="Logo da rede social X"><p>@theka.biblioteca</p></li>
+                </ol>
+            </div>
+            <div class="container_contato_redes_ajuda">
+                <h2 class="subtituloFooter">Ajuda</h2>
+                <ol class="listasFooter">
+                    <li class="itensLista_footer"><img src="../imagens/Icone_ajuda.png" alt=""><p>Central de ajuda</p></li>
+                    <li class="itensLista_footer"><img src="../imagens/Icone_FAQ.png" alt=""><p>FAQ</p></li>
+                </ol>
+            </div>  
+        </div>
+        <p id="EJECT">Mockup desenvolvido por EJECT</p>
+    </footer>
 </body>
 </html>

@@ -1,9 +1,17 @@
+const urlAPI = ('https://thekaapideploy2.pythonanywhere.com/')
+
 const unidNatalShoppBt = document.querySelector('#Botao_Unidade_NatalShopping');
 const unidMidwayBt = document.querySelector('#Botao_Unidade_Midway');
 const iframe = document.querySelector('.mapaContato')
 const enderecoUnidades = document.querySelector('#endereco_Contato_Unidades')
 const botoesUnidadesContato = document.querySelectorAll('.botoesContato')
 
+
+async function buscarAPI() {
+    const resposta = await fetch('https://thekaapideploy2.pythonanywhere.com/')
+    const  dadosAPI = await resposta.json()
+    console.log(dadosAPI)
+}
 
 unidNatalShoppBt.classList.add('botaoAtivo_unidades')
 unidMidwayBt.classList.add('botaoInativo_unidades');
