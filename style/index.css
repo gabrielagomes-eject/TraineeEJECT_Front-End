@@ -429,7 +429,7 @@ header{
     right: 320px;
     margin-bottom: 10px;
 }
-.livrosAcervo{
+#livrosAcervo{
     display: grid;
     grid-template-columns: repeat(5, 230px);
     place-items: center;
@@ -459,6 +459,7 @@ header{
     justify-content: right;
     margin-right: 145px;
     margin-top: 20px;
+
 }.opcoesFiltroAcervo{
     width: 201px;
     border: 2px solid var(--ROSA600);
