@@ -15,11 +15,19 @@
     --CINZA400: #7E7E7D;
     --CINZA500: #5A5A5A;
     --CINZA600: #393939;
+    --VERDE: #A1D54A;
     --VERDEOLIVA200: #A2D54A;
     --VERDEOLIVA300: #82AB3A;
     --VERDEOLIVA400: #62832A;
     --VERDEOLIVA500: #455E1C;
     --VERDEOLIVA600: #2A3A0E;
+    --VERDEOLIVA700: #111A04;
+    --VERDEMUSGO500: #005842;
+    --VERDEMUSGO700: #003426;
+    --AMARELO600: #F8C200;
+    --ROXO500: #D532A7;
+    --ROXO600: #63124C;
+   
 }
 body{
     margin: 0 auto;
@@ -654,4 +662,123 @@ select option{
     flex-direction: column;
     align-items: center;
     gap: 80px;
+}
+.headerBanner{
+    background-color: var(--ROSA500);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.headerSobreNos{
+    margin-top: 0;
+}
+.bannerSobreNos{
+    display: flex;
+    align-items: end;
+    justify-content: left;
+}
+.mascoteAmarelo{
+    position: relative;
+    right: 180px;
+}
+.logoTexto_sobrenos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 100px;
+}
+.bannerNossaH{
+    width: 1200px;
+    height: 629px;
+    background-color: var(--VERDE);
+    color: var(--VERDEOLIVA700);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.bannerNossaH h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+.textoNossaH{
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    margin-left: 60px;
+}
+.imagemBannerNossa{
+   display: block;
+   max-width: 100%;
+}
+.card01{
+    width: 387px;
+    height: 266px;
+    border-radius: 20px;
+    background-color: var(--AMARELO600);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.card01 h3{
+    font-size: 32px;
+    color: var(--ROSA600);
+    position: relative;
+    right: 90px;
+}
+.card03 img{
+    position: relative;
+    bottom: 28px;
+}
+.card02 img{
+    position: relative;
+    bottom: 48px;
+}
+.card02{
+    width: 387px;
+    height: 266px;
+    border-radius: 20px;
+    background-color: var(--VERDEOLIVA200);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.card02 h3{
+    font-size: 32px;
+    color: var(--LARANJA300);
+    position: relative;
+    right: 90px;
+}
+.card03{
+    width: 387px;
+    height: 266px;
+    border-radius: 20px;
+    background-color: var(--ROSA500);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.card03 h3{
+    font-size: 32px;
+    color: var(--LARANJA300);
+    position: relative;
+    right: 90px;
+}
+.containerValoresEquipe{
+    display: flex;
+    gap: 21px;
+}
+.mainSobreNos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.equipe01{
+    width: 286px;
+    height: 286px;
+    border-radius: 20px;
+    background-color: #F78520;
 }
